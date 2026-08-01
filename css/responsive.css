@@ -1,0 +1,2097 @@
+/*==================================================
+    RESPONSIVE.CSS
+    Part 1 - Global Responsive Foundation
+==================================================*/
+
+/* ==========================================
+   Large Desktop (1400px and below)
+========================================== */
+@media (max-width: 1400px) {
+
+    .container{
+        max-width:1200px;
+    }
+
+}
+
+/* ==========================================
+   Desktop (1200px and below)
+========================================== */
+@media (max-width: 1200px){
+
+    .container{
+        max-width:960px;
+    }
+
+    html{
+        font-size:15px;
+    }
+
+}
+
+/* ==========================================
+   Laptop (992px and below)
+========================================== */
+@media (max-width:992px){
+
+    .container{
+        max-width:720px;
+        padding-left:20px;
+        padding-right:20px;
+    }
+
+    html{
+        font-size:15px;
+    }
+
+    section{
+        padding:70px 0;
+    }
+
+}
+
+/* ==========================================
+   Tablet (768px and below)
+========================================== */
+@media (max-width:768px){
+
+    .container{
+        max-width:100%;
+        padding-left:18px;
+        padding-right:18px;
+    }
+
+    html{
+        font-size:14px;
+    }
+
+    h1{
+        font-size:2.5rem;
+    }
+
+    h2{
+        font-size:2rem;
+    }
+
+    h3{
+        font-size:1.5rem;
+    }
+
+    p{
+        font-size:1rem;
+        line-height:1.8;
+    }
+
+    section{
+        padding:60px 0;
+    }
+
+}
+
+/* ==========================================
+   Mobile (576px and below)
+========================================== */
+@media (max-width:576px){
+
+    html{
+        font-size:14px;
+    }
+
+    .container{
+        width:100%;
+        padding-left:15px;
+        padding-right:15px;
+    }
+
+    h1{
+        font-size:2.2rem;
+    }
+
+    h2{
+        font-size:1.8rem;
+    }
+
+    h3{
+        font-size:1.4rem;
+    }
+
+    p{
+        font-size:0.95rem;
+    }
+
+    img{
+        max-width:100%;
+        height:auto;
+        display:block;
+    }
+
+    button,
+    .btn{
+        width:100%;
+        margin-bottom:12px;
+    }
+
+}
+
+/* ==========================================
+   Small Mobile (400px and below)
+========================================== */
+@media (max-width:400px){
+
+    html{
+        font-size:13px;
+    }
+
+    .container{
+        padding-left:12px;
+        padding-right:12px;
+    }
+
+    h1{
+        font-size:2rem;
+    }
+
+    h2{
+        font-size:1.6rem;
+    }
+
+}
+
+/*==================================================
+    RESPONSIVE.CSS
+    Part 2 - Responsive Navbar
+==================================================*/
+
+
+/* ==========================================
+        Laptop Devices (992px)
+========================================== */
+
+@media (max-width:992px){
+
+    .navbar{
+
+        padding:15px 0;
+
+    }
+
+    .navbar-brand{
+
+        font-size:1.6rem;
+
+    }
+
+    .navbar-collapse{
+
+        background:#0f172a;
+
+        padding:25px;
+
+        margin-top:15px;
+
+        border-radius:16px;
+
+        box-shadow:0 15px 35px rgba(0,0,0,.15);
+
+    }
+
+    .navbar-nav{
+
+        text-align:center;
+
+    }
+
+    .navbar-nav .nav-item{
+
+        margin:12px 0;
+
+    }
+
+    .navbar-nav .nav-link{
+
+        font-size:17px;
+
+    }
+
+}
+
+
+/* ==========================================
+        Tablet Devices (768px)
+========================================== */
+
+@media (max-width:768px){
+
+    .navbar{
+
+        padding:12px 0;
+
+    }
+
+    .navbar-brand{
+
+        font-size:1.5rem;
+
+    }
+
+    .navbar-brand img{
+
+        width:42px;
+
+        height:auto;
+
+    }
+
+    .navbar-toggler{
+
+        border:none;
+
+        box-shadow:none;
+
+    }
+
+    .navbar-toggler:focus{
+
+        box-shadow:none;
+
+    }
+
+    .navbar-collapse{
+
+        padding:20px;
+
+    }
+
+    .navbar-nav .nav-link{
+
+        padding:12px 0;
+
+        font-size:16px;
+
+    }
+
+    .navbar .btn{
+
+        width:100%;
+
+        margin-top:12px;
+
+    }
+
+}
+
+
+/* ==========================================
+        Mobile Devices (576px)
+========================================== */
+
+@media (max-width:576px){
+
+    .navbar{
+
+        padding:10px 0;
+
+    }
+
+    .navbar-brand{
+
+        font-size:1.3rem;
+
+    }
+
+    .navbar-brand img{
+
+        width:36px;
+
+    }
+
+    .navbar-collapse{
+
+        padding:18px;
+
+        border-radius:14px;
+
+    }
+
+    .navbar-nav{
+
+        text-align:center;
+
+    }
+
+    .navbar-nav .nav-link{
+
+        font-size:15px;
+
+        padding:10px 0;
+
+    }
+
+    .navbar .btn{
+
+        width:100%;
+
+        font-size:15px;
+
+    }
+
+}
+
+
+/* ==========================================
+        Small Mobile (400px)
+========================================== */
+
+@media (max-width:400px){
+
+    .navbar-brand{
+
+        font-size:1.1rem;
+
+    }
+
+    .navbar-brand img{
+
+        width:30px;
+
+    }
+
+    .navbar-nav .nav-link{
+
+        font-size:14px;
+
+    }
+
+}
+
+
+/*==================================================
+    RESPONSIVE.CSS
+    Part 3 - Hero Section
+==================================================*/
+
+
+/* ==========================================
+        Laptop (992px)
+========================================== */
+
+@media (max-width:992px){
+
+.hero{
+
+padding-top:100px;
+
+padding-bottom:80px;
+
+text-align:center;
+
+}
+
+.hero-content{
+
+margin-bottom:40px;
+
+}
+
+.hero h1{
+
+font-size:42px;
+
+line-height:1.3;
+
+}
+
+.hero p{
+
+font-size:17px;
+
+max-width:700px;
+
+margin:20px auto;
+
+}
+
+.hero-buttons{
+
+display:flex;
+
+justify-content:center;
+
+gap:15px;
+
+flex-wrap:wrap;
+
+}
+
+.hero-image{
+
+text-align:center;
+
+}
+
+.hero-image img{
+
+max-width:480px;
+
+width:100%;
+
+margin:auto;
+
+}
+
+.hero-stats{
+
+justify-content:center;
+
+margin-top:40px;
+
+}
+
+}
+
+
+/* ==========================================
+        Tablet (768px)
+========================================== */
+
+@media (max-width:768px){
+
+.hero{
+
+padding-top:90px;
+
+padding-bottom:70px;
+
+}
+
+.hero h1{
+
+font-size:36px;
+
+}
+
+.hero p{
+
+font-size:16px;
+
+}
+
+.hero-buttons{
+
+flex-direction:column;
+
+align-items:center;
+
+}
+
+.hero-buttons .btn{
+
+width:260px;
+
+}
+
+.hero-image img{
+
+max-width:380px;
+
+}
+
+.hero-stats{
+
+gap:25px;
+
+}
+
+.hero-stats h3{
+
+font-size:28px;
+
+}
+
+}
+
+
+/* ==========================================
+        Mobile (576px)
+========================================== */
+
+@media (max-width:576px){
+
+.hero{
+
+padding-top:80px;
+
+padding-bottom:60px;
+
+}
+
+.hero h1{
+
+font-size:30px;
+
+line-height:1.4;
+
+}
+
+.hero p{
+
+font-size:15px;
+
+margin:15px auto 25px;
+
+}
+
+.hero-buttons{
+
+width:100%;
+
+}
+
+.hero-buttons .btn{
+
+width:100%;
+
+max-width:300px;
+
+}
+
+.hero-image{
+
+margin-top:30px;
+
+}
+
+.hero-image img{
+
+max-width:300px;
+
+}
+
+.hero-stats{
+
+flex-direction:column;
+
+align-items:center;
+
+gap:18px;
+
+}
+
+.hero-stats h3{
+
+font-size:24px;
+
+}
+
+.hero-stats span{
+
+font-size:14px;
+
+}
+
+}
+
+
+/* ==========================================
+        Small Mobile (400px)
+========================================== */
+
+@media (max-width:400px){
+
+.hero h1{
+
+font-size:26px;
+
+}
+
+.hero p{
+
+font-size:14px;
+
+}
+
+.hero-image img{
+
+max-width:250px;
+
+}
+
+.hero-buttons .btn{
+
+font-size:14px;
+
+padding:12px 18px;
+
+}
+
+}
+
+
+/*==================================================
+    RESPONSIVE.CSS
+    Part 4 - Categories + Product Grid
+==================================================*/
+
+/* ===============================
+        Laptop (992px)
+================================ */
+
+@media (max-width:992px){
+
+.category-card{
+
+padding:25px;
+
+}
+
+.category-card h4{
+
+font-size:20px;
+
+}
+
+.products .row{
+
+row-gap:30px;
+
+}
+
+.product-card{
+
+height:100%;
+
+}
+
+.product-image img{
+
+height:240px;
+
+object-fit:cover;
+
+}
+
+.product-title{
+
+font-size:20px;
+
+}
+
+}
+
+
+/* ===============================
+        Tablet (768px)
+================================ */
+
+@media (max-width:768px){
+
+.categories .row{
+
+row-gap:25px;
+
+}
+
+.category-card{
+
+padding:22px;
+
+}
+
+.category-icon{
+
+width:75px;
+
+height:75px;
+
+font-size:30px;
+
+}
+
+.product-card{
+
+margin:auto;
+
+max-width:360px;
+
+}
+
+.product-image img{
+
+height:220px;
+
+}
+
+.product-content{
+
+padding:20px;
+
+}
+
+.product-title{
+
+font-size:18px;
+
+}
+
+.product-price{
+
+font-size:22px;
+
+}
+
+}
+
+
+/* ===============================
+        Mobile (576px)
+================================ */
+
+@media (max-width:576px){
+
+.categories .row{
+
+row-gap:20px;
+
+}
+
+.category-card{
+
+padding:20px;
+
+}
+
+.category-card h4{
+
+font-size:18px;
+
+}
+
+.category-card p{
+
+font-size:14px;
+
+}
+
+.product-card{
+
+max-width:100%;
+
+}
+
+.product-image img{
+
+height:200px;
+
+}
+
+.product-content{
+
+padding:18px;
+
+}
+
+.product-title{
+
+font-size:17px;
+
+}
+
+.product-price{
+
+font-size:20px;
+
+}
+
+.product-buttons{
+
+display:flex;
+
+flex-direction:column;
+
+gap:10px;
+
+}
+
+.product-buttons .btn{
+
+width:100%;
+
+}
+
+}
+
+
+/* ===============================
+      Small Mobile (400px)
+================================ */
+
+@media (max-width:400px){
+
+.category-card{
+
+padding:16px;
+
+}
+
+.category-icon{
+
+width:65px;
+
+height:65px;
+
+font-size:24px;
+
+}
+
+.product-image img{
+
+height:180px;
+
+}
+
+.product-content{
+
+padding:15px;
+
+}
+
+.product-title{
+
+font-size:16px;
+
+}
+
+.product-price{
+
+font-size:18px;
+
+}
+
+}
+/*==================================================
+    RESPONSIVE.CSS
+    Part 5 - Flash Sale + Why Choose Us
+==================================================*/
+
+
+/* ==========================================
+        Laptop (992px)
+========================================== */
+
+@media (max-width:992px){
+
+.flash-sale{
+
+padding:80px 0;
+
+text-align:center;
+
+}
+
+.flash-content{
+
+margin-bottom:40px;
+
+}
+
+.flash-title{
+
+font-size:42px;
+
+}
+
+.flash-description{
+
+max-width:700px;
+
+margin:20px auto 30px;
+
+}
+
+.countdown{
+
+justify-content:center;
+
+gap:15px;
+
+}
+
+.time-box{
+
+width:85px;
+
+height:85px;
+
+}
+
+.flash-image img{
+
+max-width:450px;
+
+margin:auto;
+
+}
+
+.why-choose .row{
+
+row-gap:30px;
+
+}
+
+.feature-card{
+
+padding:30px 25px;
+
+}
+
+}
+
+
+/* ==========================================
+        Tablet (768px)
+========================================== */
+
+@media (max-width:768px){
+
+.flash-sale{
+
+padding:70px 0;
+
+}
+
+.flash-title{
+
+font-size:34px;
+
+}
+
+.flash-description{
+
+font-size:16px;
+
+}
+
+.time-box{
+
+width:75px;
+
+height:75px;
+
+}
+
+.time-box h3{
+
+font-size:24px;
+
+}
+
+.flash-btn{
+
+width:250px;
+
+}
+
+.flash-image img{
+
+max-width:350px;
+
+}
+
+.section-title h2{
+
+font-size:32px;
+
+}
+
+.feature-card{
+
+max-width:420px;
+
+margin:auto;
+
+}
+
+.feature-icon{
+
+width:75px;
+
+height:75px;
+
+font-size:30px;
+
+}
+
+}
+
+
+/* ==========================================
+        Mobile (576px)
+========================================== */
+
+@media (max-width:576px){
+
+.flash-sale{
+
+padding:60px 0;
+
+}
+
+.flash-title{
+
+font-size:28px;
+
+line-height:1.4;
+
+}
+
+.flash-description{
+
+font-size:15px;
+
+}
+
+.countdown{
+
+gap:10px;
+
+}
+
+.time-box{
+
+width:68px;
+
+height:68px;
+
+}
+
+.time-box h3{
+
+font-size:20px;
+
+}
+
+.time-box span{
+
+font-size:11px;
+
+}
+
+.flash-btn{
+
+width:100%;
+
+max-width:280px;
+
+}
+
+.flash-image{
+
+margin-top:30px;
+
+}
+
+.flash-image img{
+
+max-width:280px;
+
+}
+
+.feature-card{
+
+padding:25px 20px;
+
+}
+
+.feature-card h3{
+
+font-size:20px;
+
+}
+
+.feature-card p{
+
+font-size:14px;
+
+}
+
+.feature-icon{
+
+width:65px;
+
+height:65px;
+
+font-size:26px;
+
+}
+
+}
+
+
+/* ==========================================
+      Small Mobile (400px)
+========================================== */
+
+@media (max-width:400px){
+
+.flash-title{
+
+font-size:24px;
+
+}
+
+.time-box{
+
+width:60px;
+
+height:60px;
+
+}
+
+.time-box h3{
+
+font-size:18px;
+
+}
+
+.flash-description{
+
+font-size:14px;
+
+}
+
+.feature-card{
+
+padding:20px 18px;
+
+}
+
+.feature-icon{
+
+width:58px;
+
+height:58px;
+
+font-size:22px;
+
+}
+
+}
+/*==================================================
+    RESPONSIVE.CSS
+    Part 6 - Testimonials + Newsletter
+==================================================*/
+
+
+/* ==========================================
+        Laptop (992px)
+========================================== */
+
+@media (max-width:992px){
+
+.testimonials{
+
+padding:80px 0;
+
+}
+
+.testimonial-card{
+
+padding:30px;
+
+}
+
+.testimonial-user{
+
+gap:15px;
+
+}
+
+.newsletter{
+
+padding:80px 0;
+
+}
+
+.newsletter h2{
+
+font-size:38px;
+
+}
+
+.newsletter p{
+
+max-width:700px;
+
+margin:auto;
+
+}
+
+.newsletter-form{
+
+max-width:700px;
+
+margin:35px auto 0;
+
+}
+
+.newsletter-form input{
+
+font-size:16px;
+
+}
+
+.newsletter-form button{
+
+min-width:180px;
+
+}
+
+}
+
+
+/* ==========================================
+        Tablet (768px)
+========================================== */
+
+@media (max-width:768px){
+
+.testimonials{
+
+padding:70px 0;
+
+}
+
+.testimonial-card{
+
+max-width:500px;
+
+margin:auto;
+
+}
+
+.testimonial-user{
+
+flex-direction:column;
+
+text-align:center;
+
+}
+
+.testimonial-user img{
+
+margin-bottom:10px;
+
+}
+
+.newsletter{
+
+padding:70px 0;
+
+text-align:center;
+
+}
+
+.newsletter h2{
+
+font-size:32px;
+
+}
+
+.newsletter p{
+
+font-size:16px;
+
+}
+
+.newsletter-form{
+
+display:flex;
+
+flex-direction:column;
+
+gap:15px;
+
+}
+
+.newsletter-form input,
+
+.newsletter-form button{
+
+width:100%;
+
+}
+
+}
+
+
+/* ==========================================
+        Mobile (576px)
+========================================== */
+
+@media (max-width:576px){
+
+.testimonials{
+
+padding:60px 0;
+
+}
+
+.testimonial-card{
+
+padding:22px;
+
+}
+
+.testimonial-text{
+
+font-size:14px;
+
+}
+
+.testimonial-user img{
+
+width:65px;
+
+height:65px;
+
+}
+
+.user-info h4{
+
+font-size:18px;
+
+}
+
+.user-info span{
+
+font-size:13px;
+
+}
+
+.newsletter{
+
+padding:60px 0;
+
+}
+
+.newsletter h2{
+
+font-size:28px;
+
+line-height:1.4;
+
+}
+
+.newsletter p{
+
+font-size:15px;
+
+}
+
+.newsletter-form{
+
+gap:12px;
+
+}
+
+.newsletter-form input{
+
+padding:15px 18px;
+
+}
+
+.newsletter-form button{
+
+padding:15px;
+
+font-size:15px;
+
+}
+
+}
+
+
+/* ==========================================
+        Small Mobile (400px)
+========================================== */
+
+@media (max-width:400px){
+
+.testimonial-card{
+
+padding:18px;
+
+}
+
+.testimonial-user img{
+
+width:55px;
+
+height:55px;
+
+}
+
+.newsletter h2{
+
+font-size:24px;
+
+}
+
+.newsletter p{
+
+font-size:14px;
+
+}
+
+.newsletter-form input{
+
+font-size:14px;
+
+padding:14px 16px;
+
+}
+
+.newsletter-form button{
+
+font-size:14px;
+
+}
+
+}
+/*==================================================
+    RESPONSIVE.CSS
+    Part 7 - Footer + Extra Pages
+==================================================*/
+
+
+/* ==========================================
+        Laptop (992px)
+========================================== */
+
+@media (max-width:992px){
+
+.footer{
+
+padding:70px 0 20px;
+
+}
+
+.footer .row{
+
+row-gap:35px;
+
+}
+
+.footer-logo{
+
+font-size:28px;
+
+}
+
+.footer h4{
+
+font-size:20px;
+
+}
+
+.footer-social{
+
+justify-content:flex-start;
+
+gap:12px;
+
+}
+
+
+/* About */
+
+.about-section{
+
+padding:80px 0;
+
+}
+
+.about-image img{
+
+max-width:450px;
+
+margin:auto;
+
+}
+
+
+/* Contact */
+
+.contact-section{
+
+padding:80px 0;
+
+}
+
+.contact-info{
+
+margin-bottom:30px;
+
+}
+
+
+/* Login & Signup */
+
+.auth-card{
+
+max-width:500px;
+
+margin:auto;
+
+padding:35px;
+
+}
+
+}
+
+
+/* ==========================================
+        Tablet (768px)
+========================================== */
+
+@media (max-width:768px){
+
+.footer{
+
+text-align:center;
+
+}
+
+.footer .row{
+
+row-gap:40px;
+
+}
+
+.footer-social{
+
+justify-content:center;
+
+}
+
+.footer-contact li{
+
+justify-content:center;
+
+}
+
+.footer-bottom{
+
+font-size:14px;
+
+}
+
+
+/* About */
+
+.about-section{
+
+text-align:center;
+
+}
+
+.about-image{
+
+margin-top:35px;
+
+}
+
+
+/* Contact */
+
+.contact-section{
+
+text-align:center;
+
+}
+
+.contact-info{
+
+margin-bottom:35px;
+
+}
+
+
+/* Login & Signup */
+
+.auth-card{
+
+max-width:450px;
+
+padding:30px;
+
+}
+
+.auth-card .btn{
+
+width:100%;
+
+}
+
+}
+
+
+/* ==========================================
+        Mobile (576px)
+========================================== */
+
+@media (max-width:576px){
+
+.footer{
+
+padding:60px 0 20px;
+
+}
+
+.footer-logo{
+
+font-size:24px;
+
+}
+
+.footer h4{
+
+font-size:18px;
+
+}
+
+.footer p,
+
+.footer li{
+
+font-size:14px;
+
+}
+
+.footer-social a{
+
+width:42px;
+
+height:42px;
+
+}
+
+
+/* About */
+
+.about-section{
+
+padding:60px 0;
+
+}
+
+.about-image img{
+
+max-width:280px;
+
+}
+
+
+/* Contact */
+
+.contact-section{
+
+padding:60px 0;
+
+}
+
+.contact-form input,
+
+.contact-form textarea{
+
+font-size:15px;
+
+}
+
+
+/* Login & Signup */
+
+.auth-card{
+
+padding:25px 20px;
+
+}
+
+.auth-card h2{
+
+font-size:26px;
+
+}
+
+.auth-card input{
+
+font-size:15px;
+
+}
+
+.auth-card .btn{
+
+width:100%;
+
+}
+
+}
+
+
+/* ==========================================
+        Small Mobile (400px)
+========================================== */
+
+@media (max-width:400px){
+
+.footer-logo{
+
+font-size:22px;
+
+}
+
+.footer-social a{
+
+width:38px;
+
+height:38px;
+
+font-size:14px;
+
+}
+
+.auth-card{
+
+padding:20px 16px;
+
+}
+
+.auth-card h2{
+
+font-size:22px;
+
+}
+
+.about-image img{
+
+max-width:240px;
+
+}
+
+}
+/*==================================================
+    RESPONSIVE.CSS
+    Part 8 - Premium Responsive Optimization
+==================================================*/
+
+
+/* ==========================================
+        Ultra Wide Screens (1600px+)
+========================================== */
+
+@media (min-width:1600px){
+
+.container{
+
+max-width:1500px;
+
+}
+
+.hero{
+
+min-height:100vh;
+
+}
+
+.hero h1{
+
+font-size:68px;
+
+}
+
+.hero p{
+
+font-size:20px;
+
+max-width:750px;
+
+}
+
+.hero-image img{
+
+max-width:650px;
+
+}
+
+section{
+
+padding:120px 0;
+
+}
+
+}
+
+
+/* ==========================================
+        Large Desktop (1400px)
+========================================== */
+
+@media (max-width:1400px){
+
+.container{
+
+max-width:1320px;
+
+}
+
+.hero-image img{
+
+max-width:560px;
+
+}
+
+}
+
+
+/* ==========================================
+        Landscape Phones
+========================================== */
+
+@media (max-width:900px) and (orientation:landscape){
+
+.hero{
+
+min-height:auto;
+
+padding:90px 0;
+
+}
+
+.hero-image img{
+
+max-width:320px;
+
+}
+
+section{
+
+padding:60px 0;
+
+}
+
+}
+
+
+/* ==========================================
+        Fold Devices
+========================================== */
+
+@media (max-width:320px){
+
+html{
+
+font-size:12px;
+
+}
+
+.container{
+
+padding-left:10px;
+
+padding-right:10px;
+
+}
+
+.hero h1{
+
+font-size:22px;
+
+}
+
+.hero p{
+
+font-size:13px;
+
+}
+
+.btn{
+
+padding:12px 18px;
+
+font-size:13px;
+
+}
+
+.product-title{
+
+font-size:15px;
+
+}
+
+.footer{
+
+text-align:center;
+
+}
+
+}
+
+
+/* ==========================================
+        Touch Devices
+========================================== */
+
+@media (hover:none){
+
+.btn:hover{
+
+transform:none;
+
+}
+
+.product-card:hover{
+
+transform:none;
+
+}
+
+.category-card:hover{
+
+transform:none;
+
+}
+
+.feature-card:hover{
+
+transform:none;
+
+}
+
+.testimonial-card:hover{
+
+transform:none;
+
+}
+
+}
+
+
+/* ==========================================
+        High Resolution Displays
+========================================== */
+
+@media (-webkit-min-device-pixel-ratio:2),
+(min-resolution:192dpi){
+
+img{
+
+image-rendering:auto;
+
+}
+
+}
+
+
+/* ==========================================
+        Print Optimization
+========================================== */
+
+@media print{
+
+.navbar,
+.footer,
+.newsletter,
+.flash-sale,
+.btn{
+
+display:none !important;
+
+}
+
+body{
+
+background:#fff;
+
+color:#000;
+
+}
+
+a{
+
+text-decoration:none;
+
+color:#000;
+
+}
+
+}
+
+
+/* ==========================================
+        Accessibility
+========================================== */
+
+@media (prefers-reduced-motion:reduce){
+
+*{
+
+animation:none !important;
+
+transition:none !important;
+
+scroll-behavior:auto !important;
+
+}
+
+}
+
+
+/* ==========================================
+        Dark Mode Ready
+========================================== */
+
+@media (prefers-color-scheme:dark){
+
+body.auto-theme{
+
+background:#0f172a;
+
+color:#f8fafc;
+
+}
+
+}
+
+
+/* ==========================================
+        Final Responsive Polish
+========================================== */
+
+html{
+
+overflow-x:hidden;
+
+}
+
+body{
+
+overflow-x:hidden;
+
+}
+
+img{
+
+max-width:100%;
+
+height:auto;
+
+display:block;
+
+}
+
+button,
+.btn{
+
+touch-action:manipulation;
+
+}
