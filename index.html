@@ -99,6 +99,15 @@
                 </ul>
 
                 <div class="d-flex gap-3">
+                    <form class="d-flex me-3">
+
+    <input
+        id="searchInput"
+        class="form-control"
+        type="search"
+        placeholder="Search Products...">
+
+</form>
 
                     <a href="pages/login.html"
                         class="btn btn-outline-light">
@@ -106,13 +115,19 @@
                         Login
 
                     </a>
-
                     <a href="pages/cart.html"
-                        class="btn btn-warning">
+    class="btn btn-warning position-relative">
 
-                        <i class="bi bi-cart3"></i>
+    <i class="bi bi-cart3"></i>
 
-                    </a>
+    <span id="cartCount"
+        class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+
+        0
+
+    </span>
+
+                   </a>
 
                 </div>
 
@@ -378,12 +393,29 @@
                             $89
 
                         </h4>
+<button
+    class="btn btn-outline-danger w-100 mb-2 add-to-wishlist"
+    data-id="1">
 
-                        <button class="btn btn-dark w-100 mt-3">
+    ❤ Wishlist
 
-                            Add To Cart
+</button>
 
-                        </button>
+<button
+    class="btn btn-outline-secondary w-100 mb-2 product-compare"
+    data-id="1">
+
+    ⇄ Compare
+
+</button>
+
+<button
+    class="btn btn-dark w-100 mt-3 add-to-cart"
+    data-id="1">
+
+    Add To Cart
+
+</button>
 
                     </div>
 
@@ -427,11 +459,35 @@
 
                         </h4>
 
-                        <button class="btn btn-dark w-100 mt-3">
+                        <h4 class="fw-bold text-primary">
 
-                            Add To Cart
+    $129
 
-                        </button>
+</h4>
+
+<button
+    class="btn btn-outline-danger w-100 mb-2 add-to-wishlist"
+    data-id="2">
+
+    ❤ Wishlist
+
+</button>
+
+<button
+    class="btn btn-outline-secondary w-100 mb-2 product-compare"
+    data-id="2">
+
+    ⇄ Compare
+
+</button>
+
+<button
+    class="btn btn-dark w-100 mt-3 add-to-cart"
+    data-id="2">
+
+    Add To Cart
+
+</button>
 
                     </div>
 
@@ -475,11 +531,29 @@
 
                         </h4>
 
-                        <button class="btn btn-dark w-100 mt-3">
+                        <button
+    class="btn btn-outline-danger w-100 mb-2 add-to-wishlist"
+    data-id="3">
 
-                            Add To Cart
+    ❤ Wishlist
 
-                        </button>
+</button>
+
+<button
+    class="btn btn-outline-secondary w-100 mb-2 product-compare"
+    data-id="3">
+
+    ⇄ Compare
+
+</button>
+
+<button
+    class="btn btn-dark w-100 mt-3 add-to-cart"
+    data-id="3">
+
+    Add To Cart
+
+</button>
 
                     </div>
 
@@ -529,11 +603,29 @@
 
                         </h4>
 
-                        <button class="btn btn-dark w-100 mt-3">
+                        <button
+    class="btn btn-outline-danger w-100 mb-2 add-to-wishlist"
+    data-id="4">
 
-                            Add To Cart
+    ❤ Wishlist
 
-                        </button>
+</button>
+
+<button
+    class="btn btn-outline-secondary w-100 mb-2 product-compare"
+    data-id="4">
+
+    ⇄ Compare
+
+</button>
+
+<button
+    class="btn btn-dark w-100 mt-3 add-to-cart"
+    data-id="4">
+
+    Add To Cart
+
+</button>
 
                     </div>
 
@@ -1033,6 +1125,15 @@
 
     <!-- JavaScript -->
     <script src="js/main.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/wishlist.js"></script>
+    <script src="js/compare.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/profile.js"></script>
+    <script src="js/checkout.js"></script>
 
 </body>
 
