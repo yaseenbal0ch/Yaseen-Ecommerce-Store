@@ -2851,9 +2851,7 @@ function validateAdminSession(){
 
     ){
 
-        window.location.href =
-
-        "login.html";
+        window.location = "pages/login.html";
 
     }
 

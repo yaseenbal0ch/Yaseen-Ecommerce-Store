@@ -806,9 +806,7 @@ function logoutUser(){
 
     setTimeout(()=>{
 
-        window.location.href =
-
-        "login.html";
+        location.href = "pages/login.html";
 
     },1000);
 
@@ -942,9 +940,8 @@ function requireAuthentication(){
 
     ){
 
-        window.location.href =
+        window.location = "pages/login.html";
 
-        "login.html";
 
     }
 
@@ -1817,7 +1814,7 @@ const protectedPages = [
 
 const guestPages = [
 
-    "login.html",
+    location.href = "pages/login.html";
 
     "signup.html",
 
@@ -1855,9 +1852,7 @@ function redirectToLogin(){
 
     setTimeout(()=>{
 
-        window.location.href =
-
-        "login.html";
+        location.href = "pages/login.html";
 
     },1000);
 
