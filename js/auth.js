@@ -1813,13 +1813,8 @@ const protectedPages = [
 =========================================*/
 
 const guestPages = [
-
-    location.href = "pages/login.html";
-
     "signup.html",
-
     "forgot-password.html"
-
 ];
 
 
