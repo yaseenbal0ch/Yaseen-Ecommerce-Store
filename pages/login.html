@@ -1,0 +1,1619 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- ========================================= -->
+    <!--              BASIC META TAGS              -->
+    <!-- ========================================= -->
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <!-- ========================================= -->
+    <!--                 SEO TAGS                  -->
+    <!-- ========================================= -->
+
+    <title>Login | Yaseen E-Commerce Store</title>
+
+    <meta name="description"
+          content="Securely login to your Yaseen Store account to manage your profile, orders, wishlist, cart, and checkout.">
+
+    <meta name="keywords"
+          content="Login, Sign In, Ecommerce Login, User Account, Yaseen Store">
+
+    <meta name="author"
+          content="Yaseen Baloch">
+
+    <!-- ========================================= -->
+    <!--                 FAVICON                   -->
+    <!-- ========================================= -->
+
+    <link rel="icon"
+          href="../assets/favicon/favicon.png">
+
+    <!-- ========================================= -->
+    <!--              GOOGLE FONTS                -->
+    <!-- ========================================= -->
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <!-- ========================================= -->
+    <!--                BOOTSTRAP                 -->
+    <!-- ========================================= -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- AOS Animation -->
+
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css"
+          rel="stylesheet">
+
+    <!-- ========================================= -->
+    <!--               CUSTOM CSS                 -->
+    <!-- ========================================= -->
+
+    <link rel="stylesheet"
+          href="../css/variables.css">
+
+    <link rel="stylesheet"
+          href="../css/style.css">
+
+    <link rel="stylesheet"
+          href="../css/responsive.css">
+
+    <link rel="stylesheet"
+          href="../css/animations.css">
+
+</head>
+
+<body>
+
+<!-- ========================================= -->
+<!--             NAVBAR START                  -->
+<!-- ========================================= -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow">
+
+    <div class="container">
+
+        <a class="navbar-brand fw-bold fs-3"
+           href="../index.html">
+
+            <i class="bi bi-bag-check-fill text-warning"></i>
+
+            Yaseen Store
+
+        </a>
+
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbar">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse"
+             id="navbar">
+
+            <ul class="navbar-nav mx-auto">
+
+                <li class="nav-item">
+
+                    <a class="nav-link"
+                       href="../index.html">
+
+                        Home
+
+                    </a>
+
+                </li>
+
+                <li class="nav-item">
+
+                    <a class="nav-link"
+                       href="products.html">
+
+                        Products
+
+                    </a>
+
+                </li>
+
+                <li class="nav-item">
+
+                    <a class="nav-link"
+                       href="about.html">
+
+                        About
+
+                    </a>
+
+                </li>
+
+                <li class="nav-item">
+
+                    <a class="nav-link"
+                       href="contact.html">
+
+                        Contact
+
+                    </a>
+
+                </li>
+
+            </ul>
+
+            <div class="d-flex gap-2">
+
+                <a href="signup.html"
+                   class="btn btn-outline-light">
+
+                    Register
+
+                </a>
+
+                <a href="cart.html"
+                   class="btn btn-warning position-relative">
+
+                    <i class="bi bi-cart3"></i>
+
+                    <span id="cartCount"
+                          class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+
+                        0
+
+                    </span>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</nav>
+<!-- ========================================= -->
+<!--           LOGIN HERO SECTION              -->
+<!-- ========================================= -->
+
+<section class="py-5 bg-light">
+
+    <div class="container">
+
+        <!-- Breadcrumb -->
+
+        <nav aria-label="breadcrumb"
+             data-aos="fade-right">
+
+            <ol class="breadcrumb">
+
+                <li class="breadcrumb-item">
+
+                    <a href="../index.html"
+                       class="text-decoration-none">
+
+                        Home
+
+                    </a>
+
+                </li>
+
+                <li class="breadcrumb-item active"
+                    aria-current="page">
+
+                    Login
+
+                </li>
+
+            </ol>
+
+        </nav>
+
+        <div class="row align-items-center py-5">
+
+            <!-- Left Content -->
+
+            <div class="col-lg-6"
+                 data-aos="fade-right">
+
+                <span class="badge bg-warning text-dark mb-3">
+
+                    Welcome Back
+
+                </span>
+
+                <h1 class="display-4 fw-bold">
+
+                    Sign In To Your Account
+
+                </h1>
+
+                <p class="lead text-muted my-4">
+
+                    Access your account to manage orders, wishlist,
+                    shopping cart, profile, and enjoy a secure
+                    shopping experience with Yaseen Store.
+
+                </p>
+
+                <div class="d-flex gap-3">
+
+                    <a href="#loginForm"
+                       class="btn btn-dark btn-lg">
+
+                        Login Now
+
+                    </a>
+
+                    <a href="signup.html"
+                       class="btn btn-outline-dark btn-lg">
+
+                        Create Account
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Right Image -->
+
+            <div class="col-lg-6 text-center"
+                 data-aos="fade-left">
+
+                <img src="../assets/images/banners/login-banner.png"
+                     class="img-fluid"
+                     alt="Login Banner">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ========================================= -->
+<!--         LOGIN FORM SECTION                -->
+<!-- ========================================= -->
+
+<section id="loginForm" class="py-5">
+
+    <div class="container">
+
+        <div class="row justify-content-center">
+
+            <div class="col-lg-6">
+
+                <div class="card border-0 shadow-lg">
+
+                    <div class="card-body p-5">
+
+                        <div class="text-center mb-4">
+
+                            <i class="bi bi-person-circle display-3 text-primary"></i>
+
+                            <h2 class="fw-bold mt-3">
+
+                                Login To Your Account
+
+                            </h2>
+
+                            <p class="text-muted">
+
+                                Enter your email and password to continue.
+
+                            </p>
+
+                        </div>
+
+                        <form id="loginFormData">
+
+                            <!-- Email -->
+
+                            <div class="mb-4">
+
+                                <label class="form-label fw-semibold">
+
+                                    Email Address
+
+                                </label>
+
+                                <input
+                                    type="email"
+                                    id="loginEmail"
+                                    class="form-control form-control-lg"
+                                    placeholder="Enter your email"
+                                    required>
+
+                            </div>
+
+                            <!-- Password -->
+
+                            <div class="mb-4">
+
+                                <label class="form-label fw-semibold">
+
+                                    Password
+
+                                </label>
+
+                                <div class="input-group">
+
+                                    <input
+                                        type="password"
+                                        id="loginPassword"
+                                        class="form-control form-control-lg"
+                                        placeholder="Enter your password"
+                                        required>
+
+                                    <button
+                                        class="btn btn-outline-secondary"
+                                        type="button"
+                                        id="togglePassword">
+
+                                        <i class="bi bi-eye"></i>
+
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+                            <!-- Remember + Forgot -->
+
+                            <div class="d-flex justify-content-between align-items-center mb-4">
+
+                                <div class="form-check">
+
+                                    <input
+                                        class="form-check-input"
+                                        type="checkbox"
+                                        id="rememberMe">
+
+                                    <label
+                                        class="form-check-label"
+                                        for="rememberMe">
+
+                                        Remember Me
+
+                                    </label>
+
+                                </div>
+
+                                <a href="forgot-password.html"
+                                   class="text-decoration-none">
+
+                                    Forgot Password?
+
+                                </a>
+
+                            </div>
+
+                            <!-- Login Button -->
+
+                            <div class="d-grid">
+
+                                <button
+                                    type="submit"
+                                    class="btn btn-dark btn-lg">
+
+                                    <i class="bi bi-box-arrow-in-right me-2"></i>
+
+                                    Login
+
+                                </button>
+
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ========================================= -->
+<!--       AUTHENTICATION OPTIONS              -->
+<!-- ========================================= -->
+
+<section class="py-5 bg-light">
+
+    <div class="container">
+
+        <div class="row justify-content-center">
+
+            <div class="col-lg-6">
+
+                <div class="card border-0 shadow">
+
+                    <div class="card-body p-5">
+
+                        <!-- Divider -->
+
+                        <div class="text-center mb-4">
+
+                            <span class="badge bg-secondary">
+
+                                OR CONTINUE WITH
+
+                            </span>
+
+                        </div>
+
+                        <!-- Google -->
+
+                        <div class="d-grid mb-3">
+
+                            <button
+                                class="btn btn-outline-danger btn-lg">
+
+                                <i class="bi bi-google me-2"></i>
+
+                                Continue with Google
+
+                            </button>
+
+                        </div>
+
+                        <!-- GitHub -->
+
+                        <div class="d-grid mb-3">
+
+                            <button
+                                class="btn btn-outline-dark btn-lg">
+
+                                <i class="bi bi-github me-2"></i>
+
+                                Continue with GitHub
+
+                            </button>
+
+                        </div>
+
+                        <!-- Facebook -->
+
+                        <div class="d-grid mb-4">
+
+                            <button
+                                class="btn btn-outline-primary btn-lg">
+
+                                <i class="bi bi-facebook me-2"></i>
+
+                                Continue with Facebook
+
+                            </button>
+
+                        </div>
+
+                        <hr>
+
+                        <!-- Register CTA -->
+
+                        <div class="text-center">
+
+                            <h5 class="fw-bold">
+
+                                New To Yaseen Store?
+
+                            </h5>
+
+                            <p class="text-muted">
+
+                                Create your account and enjoy secure shopping,
+                                faster checkout, order tracking, and exclusive offers.
+
+                            </p>
+
+                            <a href="signup.html"
+                               class="btn btn-warning btn-lg">
+
+                                <i class="bi bi-person-plus-fill me-2"></i>
+
+                                Create New Account
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>i
+<!-- ========================================= -->
+<!--         SECURITY SECTION                  -->
+<!-- ========================================= -->
+
+<section class="py-5">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <span class="badge bg-success mb-3">
+
+                Secure Authentication
+
+            </span>
+
+            <h2 class="fw-bold">
+
+                Your Security Is Our Priority
+
+            </h2>
+
+            <p class="text-muted">
+
+                We protect your personal information using modern security
+                technologies and industry best practices.
+
+            </p>
+
+        </div>
+
+        <div class="row g-4">
+
+            <!-- Secure Login -->
+
+            <div class="col-md-4">
+
+                <div class="card border-0 shadow h-100 text-center">
+
+                    <div class="card-body p-4">
+
+                        <i class="bi bi-shield-lock-fill display-3 text-success mb-3"></i>
+
+                        <h4 class="fw-bold">
+
+                            Secure Login
+
+                        </h4>
+
+                        <p class="text-muted">
+
+                            Your account is protected with secure authentication
+                            and encrypted login sessions.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Privacy -->
+
+            <div class="col-md-4">
+
+                <div class="card border-0 shadow h-100 text-center">
+
+                    <div class="card-body p-4">
+
+                        <i class="bi bi-person-lock display-3 text-primary mb-3"></i>
+
+                        <h4 class="fw-bold">
+
+                            Privacy Protection
+
+                        </h4>
+
+                        <p class="text-muted">
+
+                            Your personal information is never shared with
+                            third parties without your permission.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Encryption -->
+
+            <div class="col-md-4">
+
+                <div class="card border-0 shadow h-100 text-center">
+
+                    <div class="card-body p-4">
+
+                        <i class="bi bi-lock-fill display-3 text-warning mb-3"></i>
+
+                        <h4 class="fw-bold">
+
+                            Data Encryption
+
+                        </h4>
+
+                        <p class="text-muted">
+
+                            All login data is protected using SSL encryption
+                            and secure communication protocols.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Trust Badges -->
+
+        <div class="row mt-5 text-center">
+
+            <div class="col-md-3">
+
+                <i class="bi bi-patch-check-fill display-5 text-success"></i>
+
+                <h6 class="mt-3">
+
+                    Verified Platform
+
+                </h6>
+
+            </div>
+
+            <div class="col-md-3">
+
+                <i class="bi bi-shield-check display-5 text-primary"></i>
+
+                <h6 class="mt-3">
+
+                    SSL Secured
+
+                </h6>
+
+            </div>
+
+            <div class="col-md-3">
+
+                <i class="bi bi-credit-card-2-front-fill display-5 text-warning"></i>
+
+                <h6 class="mt-3">
+
+                    Safe Payments
+
+                </h6>
+
+            </div>
+
+            <div class="col-md-3">
+
+                <i class="bi bi-headset display-5 text-danger"></i>
+
+                <h6 class="mt-3">
+
+                    24/7 Support
+
+                </h6>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ========================================= -->
+<!--         REGISTER CTA SECTION              -->
+<!-- ========================================= -->
+
+<section class="py-5 bg-warning-subtle">
+
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <!-- Left Content -->
+
+            <div class="col-lg-7"
+                 data-aos="fade-right">
+
+                <span class="badge bg-dark mb-3">
+
+                    Join Yaseen Store Today
+
+                </span>
+
+                <h2 class="fw-bold">
+
+                    Don't Have An Account Yet?
+
+                </h2>
+
+                <p class="lead text-muted">
+
+                    Create your free account today and unlock premium shopping
+                    features, exclusive discounts, faster checkout, and order
+                    tracking.
+
+                </p>
+
+                <!-- Benefits -->
+
+                <div class="row mt-4">
+
+                    <div class="col-md-6">
+
+                        <ul class="list-unstyled">
+
+                            <li class="mb-3">
+
+                                <i class="bi bi-check-circle-fill text-success me-2"></i>
+
+                                Fast & Secure Checkout
+
+                            </li>
+
+                            <li class="mb-3">
+
+                                <i class="bi bi-check-circle-fill text-success me-2"></i>
+
+                                Save Wishlist
+
+                            </li>
+
+                            <li class="mb-3">
+
+                                <i class="bi bi-check-circle-fill text-success me-2"></i>
+
+                                Track Orders Anytime
+
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="col-md-6">
+
+                        <ul class="list-unstyled">
+
+                            <li class="mb-3">
+
+                                <i class="bi bi-check-circle-fill text-success me-2"></i>
+
+                                Exclusive Member Discounts
+
+                            </li>
+
+                            <li class="mb-3">
+
+                                <i class="bi bi-check-circle-fill text-success me-2"></i>
+
+                                Secure Payment History
+
+                            </li>
+
+                            <li class="mb-3">
+
+                                <i class="bi bi-check-circle-fill text-success me-2"></i>
+
+                                Premium Customer Support
+
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <!-- CTA Button -->
+
+                <a href="signup.html"
+                   class="btn btn-dark btn-lg mt-3">
+
+                    <i class="bi bi-person-plus-fill me-2"></i>
+
+                    Create Free Account
+
+                </a>
+
+            </div>
+
+            <!-- Right Side -->
+
+            <div class="col-lg-5 text-center"
+                 data-aos="fade-left">
+
+                <img src="../assets/images/banners/register-banner.png"
+                     class="img-fluid"
+                     alt="Register Banner">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ========================================= -->
+<!--              LOGIN FAQ SECTION            -->
+<!-- ========================================= -->
+
+<section class="py-5 bg-light">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <span class="badge bg-primary mb-3">
+
+                Help Center
+
+            </span>
+
+            <h2 class="fw-bold">
+
+                Frequently Asked Questions
+
+            </h2>
+
+            <p class="text-muted">
+
+                Find answers to common questions about logging in,
+                password recovery, and account security.
+
+            </p>
+
+        </div>
+
+        <div class="accordion shadow"
+             id="loginFAQ">
+
+            <!-- FAQ 1 -->
+
+            <div class="accordion-item">
+
+                <h2 class="accordion-header">
+
+                    <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#loginFaq1">
+
+                        I forgot my password. What should I do?
+
+                    </button>
+
+                </h2>
+
+                <div
+                    id="loginFaq1"
+                    class="accordion-collapse collapse show"
+                    data-bs-parent="#loginFAQ">
+
+                    <div class="accordion-body">
+
+                        Click the <strong>Forgot Password</strong> link on the
+                        login page and follow the instructions to reset your password.
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- FAQ 2 -->
+
+            <div class="accordion-item">
+
+                <h2 class="accordion-header">
+
+                    <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#loginFaq2">
+
+                        How can I recover my account?
+
+                    </button>
+
+                </h2>
+
+                <div
+                    id="loginFaq2"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#loginFAQ">
+
+                    <div class="accordion-body">
+
+                        Verify your registered email address and use the account
+                        recovery process to regain access securely.
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- FAQ 3 -->
+
+            <div class="accordion-item">
+
+                <h2 class="accordion-header">
+
+                    <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#loginFaq3">
+
+                        Why can't I log in to my account?
+
+                    </button>
+
+                </h2>
+
+                <div
+                    id="loginFaq3"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#loginFAQ">
+
+                    <div class="accordion-body">
+
+                        Check that your email and password are correct,
+                        ensure your internet connection is stable,
+                        and verify that your account is active.
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- FAQ 4 -->
+
+            <div class="accordion-item">
+
+                <h2 class="accordion-header">
+
+                    <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#loginFaq4">
+
+                        Is my personal information secure?
+
+                    </button>
+
+                </h2>
+
+                <div
+                    id="loginFaq4"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#loginFAQ">
+
+                    <div class="accordion-body">
+
+                        Yes. Your account is protected using secure authentication,
+                        encrypted communication, and modern security practices.
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- FAQ 5 -->
+
+            <div class="accordion-item">
+
+                <h2 class="accordion-header">
+
+                    <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#loginFaq5">
+
+                        Can I stay logged in on my device?
+
+                    </button>
+
+                </h2>
+
+                <div
+                    id="loginFaq5"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#loginFAQ">
+
+                    <div class="accordion-body">
+
+                        Yes. Simply enable the
+                        <strong>Remember Me</strong> option before logging in.
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ========================================= -->
+<!--      NEWSLETTER & SPECIAL OFFERS          -->
+<!-- ========================================= -->
+
+<section class="py-5 bg-primary text-white">
+
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <!-- Left Side -->
+
+            <div class="col-lg-6"
+                 data-aos="fade-right">
+
+                <span class="badge bg-warning text-dark mb-3">
+
+                    Exclusive Offers
+
+                </span>
+
+                <h2 class="fw-bold">
+
+                    Subscribe To Our Newsletter
+
+                </h2>
+
+                <p class="lead">
+
+                    Join thousands of happy customers and receive
+                    exclusive discounts, new product launches,
+                    seasonal sales, and shopping tips directly
+                    in your inbox.
+
+                </p>
+
+                <div class="row mt-4">
+
+                    <div class="col-md-6">
+
+                        <p>
+
+                            <i class="bi bi-check-circle-fill text-warning me-2"></i>
+
+                            Weekly Special Deals
+
+                        </p>
+
+                        <p>
+
+                            <i class="bi bi-check-circle-fill text-warning me-2"></i>
+
+                            New Product Updates
+
+                        </p>
+
+                    </div>
+
+                    <div class="col-md-6">
+
+                        <p>
+
+                            <i class="bi bi-check-circle-fill text-warning me-2"></i>
+
+                            Exclusive Member Discounts
+
+                        </p>
+
+                        <p>
+
+                            <i class="bi bi-check-circle-fill text-warning me-2"></i>
+
+                            Flash Sale Notifications
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Right Side -->
+
+            <div class="col-lg-6"
+                 data-aos="fade-left">
+
+                <div class="card border-0 shadow-lg">
+
+                    <div class="card-body p-5">
+
+                        <h3 class="fw-bold text-dark mb-3">
+
+                            Stay Updated
+
+                        </h3>
+
+                        <p class="text-muted">
+
+                            Enter your email below and never miss our
+                            latest offers.
+
+                        </p>
+
+                        <form id="newsletterForm">
+
+                            <div class="mb-3">
+
+                                <input
+                                    type="email"
+                                    id="newsletterEmail"
+                                    class="form-control form-control-lg"
+                                    placeholder="Enter your email"
+                                    required>
+
+                            </div>
+
+                            <div class="d-grid">
+
+                                <button
+                                    type="submit"
+                                    id="subscribeButton"
+                                    class="btn btn-warning btn-lg">
+
+                                    <i class="bi bi-envelope-check-fill me-2"></i>
+
+                                    Subscribe Now
+
+                                </button>
+
+                            </div>
+
+                        </form>
+
+                        <small class="text-muted d-block mt-3">
+
+                            <i class="bi bi-shield-lock-fill text-success"></i>
+
+                            Your email is safe with us. We never send spam.
+
+                        </small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ========================================= -->
+<!--               FOOTER START                -->
+<!-- ========================================= -->
+
+<footer class="bg-dark text-white pt-5 pb-3">
+
+    <div class="container">
+
+        <div class="row">
+
+            <!-- Company Information -->
+
+            <div class="col-lg-4 mb-4">
+
+                <h3 class="fw-bold">
+
+                    <i class="bi bi-bag-check-fill text-warning"></i>
+
+                    Yaseen Store
+
+                </h3>
+
+                <p class="text-light">
+
+                    Yaseen Store is a modern e-commerce platform built with
+                    HTML, CSS, JavaScript and Bootstrap. Our mission is to
+                    provide premium products with secure shopping,
+                    fast delivery and excellent customer service.
+
+                </p>
+
+            </div>
+
+            <!-- Quick Links -->
+
+            <div class="col-lg-2 mb-4">
+
+                <h5 class="fw-bold">
+
+                    Quick Links
+
+                </h5>
+
+                <ul class="list-unstyled">
+
+                    <li class="mb-2">
+
+                        <a href="../index.html"
+                           class="text-light text-decoration-none">
+
+                            Home
+
+                        </a>
+
+                    </li>
+
+                    <li class="mb-2">
+
+                        <a href="products.html"
+                           class="text-light text-decoration-none">
+
+                            Products
+
+                        </a>
+
+                    </li>
+
+                    <li class="mb-2">
+
+                        <a href="about.html"
+                           class="text-light text-decoration-none">
+
+                            About
+
+                        </a>
+
+                    </li>
+
+                    <li class="mb-2">
+
+                        <a href="contact.html"
+                           class="text-light text-decoration-none">
+
+                            Contact
+
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <!-- Customer Service -->
+
+            <div class="col-lg-3 mb-4">
+
+                <h5 class="fw-bold">
+
+                    Customer Service
+
+                </h5>
+
+                <ul class="list-unstyled">
+
+                    <li class="mb-2">
+
+                        <a href="#"
+                           class="text-light text-decoration-none">
+
+                            Help Center
+
+                        </a>
+
+                    </li>
+
+                    <li class="mb-2">
+
+                        <a href="#"
+                           class="text-light text-decoration-none">
+
+                            Privacy Policy
+
+                        </a>
+
+                    </li>
+
+                    <li class="mb-2">
+
+                        <a href="#"
+                           class="text-light text-decoration-none">
+
+                            Terms & Conditions
+
+                        </a>
+
+                    </li>
+
+                    <li class="mb-2">
+
+                        <a href="#"
+                           class="text-light text-decoration-none">
+
+                            Return Policy
+
+                        </a>
+
+                    </li>
+
+                    <li class="mb-2">
+
+                        <a href="#"
+                           class="text-light text-decoration-none">
+
+                            Shipping Policy
+
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <!-- Social Media -->
+
+            <div class="col-lg-3 mb-4">
+
+                <h5 class="fw-bold">
+
+                    Follow Us
+
+                </h5>
+
+                <p class="text-light">
+
+                    Stay connected with us on social media.
+
+                </p>
+
+                <div class="fs-3">
+
+                    <a href="#"
+                       class="text-light me-3">
+
+                        <i class="bi bi-facebook"></i>
+
+                    </a>
+
+                    <a href="#"
+                       class="text-light me-3">
+
+                        <i class="bi bi-instagram"></i>
+
+                    </a>
+
+                    <a href="#"
+                       class="text-light me-3">
+
+                        <i class="bi bi-twitter-x"></i>
+
+                    </a>
+
+                    <a href="#"
+                       class="text-light">
+
+                        <i class="bi bi-linkedin"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <hr class="border-secondary">
+
+        <div class="row align-items-center">
+
+            <div class="col-md-6">
+
+                <p class="mb-0">
+
+                    © 2026 <strong>Yaseen Store</strong>.
+                    All Rights Reserved.
+
+                </p>
+
+            </div>
+
+            <div class="col-md-6 text-md-end mt-3 mt-md-0">
+
+                <span class="badge bg-success">
+
+                    Secure Website
+
+                </span>
+
+                <span class="badge bg-primary">
+
+                    SSL Protected
+
+                </span>
+
+                <span class="badge bg-warning text-dark">
+
+                    Premium Support
+
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+<!-- ========================================= -->
+<!--              JAVASCRIPT FILES             -->
+<!-- ========================================= -->
+
+<!-- Bootstrap Bundle -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- AOS Animation -->
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<!-- Initialize AOS -->
+
+<script>
+
+AOS.init({
+
+    duration: 1000,
+
+    once: true,
+
+    easing: "ease-in-out"
+
+});
+
+</script>
+
+<!-- ========================================= -->
+<!--           CUSTOM JAVASCRIPT               -->
+<!-- ========================================= -->
+
+<script src="../js/utils.js"></script>
+
+<script src="../js/main.js"></script>
+
+<script src="../js/products.js"></script>
+
+<script src="../js/cart.js"></script>
+
+<script src="../js/wishlist.js"></script>
+
+<script src="../js/compare.js"></script>
+
+<script src="../js/search.js"></script>
+
+<script src="../js/auth.js"></script>
+
+<script src="../js/profile.js"></script>
+
+<script src="../js/checkout.js"></script>
+
+<script src="../js/admin.js"></script>
+
+<!-- ========================================= -->
+<!--     PASSWORD TOGGLE FUNCTION              -->
+<!-- ========================================= -->
+
+<script>
+
+const togglePassword = document.getElementById("togglePassword");
+const loginPassword = document.getElementById("loginPassword");
+
+if (togglePassword && loginPassword) {
+
+    togglePassword.addEventListener("click", () => {
+
+        const type =
+            loginPassword.getAttribute("type") === "password"
+                ? "text"
+                : "password";
+
+        loginPassword.setAttribute("type", type);
+
+        togglePassword.innerHTML =
+            type === "password"
+                ? '<i class="bi bi-eye"></i>'
+                : '<i class="bi bi-eye-slash"></i>';
+
+    });
+
+}
+
+</script>
+
+<!-- ========================================= -->
+<!--        LOGIN FORM VALIDATION              -->
+<!-- ========================================= -->
+
+<script>
+
+const loginForm = document.getElementById("loginFormData");
+
+if (loginForm) {
+
+    loginForm.addEventListener("submit", function (e) {
+
+        e.preventDefault();
+
+        const email =
+            document.getElementById("loginEmail").value.trim();
+
+        const password =
+            document.getElementById("loginPassword").value.trim();
+
+        if (email === "" || password === "") {
+
+            alert("Please fill in all required fields.");
+
+            return;
+
+        }
+
+        alert("Login Successful!");
+
+    });
+
+}
+
+</script>
+
+<!-- ========================================= -->
+<!--          END OF LOGIN PAGE                -->
+<!-- ========================================= -->
+
+</body>
+
+</html>
