@@ -806,7 +806,7 @@ function logoutUser(){
 
     setTimeout(()=>{
 
-        location.href = "login.html";
+        location.href = "pages/login.html";
 
     },1000);
 
@@ -940,7 +940,7 @@ function requireAuthentication(){
 
     ){
 
-        window.location = "login.html";
+        window.location = "pages/login.html";
 
 
     }
@@ -1847,7 +1847,7 @@ function redirectToLogin(){
 
     setTimeout(()=>{
 
-        location.href = "login.html";
+        location.href = "pages/login.html";
 
     },1000);
 
