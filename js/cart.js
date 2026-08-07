@@ -266,8 +266,6 @@ document.addEventListener("click",(event)=>{
         Initialize Counter
 =========================================*/
 
-updateCartCounter();
-
 
 /*=========================================
         Console
