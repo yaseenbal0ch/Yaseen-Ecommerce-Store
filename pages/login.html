@@ -329,7 +329,8 @@
 
                         </div>
 
-                        <form id="loginFormData">
+                        <form class="login-form"
+                        id="loginFormData">
 
                             <!-- Email -->
 
@@ -554,7 +555,7 @@
 
     </div>
 
-</section>i
+</section>
 <!-- ========================================= -->
 <!--         SECURITY SECTION                  -->
 <!-- ========================================= -->
@@ -1577,38 +1578,6 @@ if (togglePassword && loginPassword) {
 <!-- ========================================= -->
 <!--        LOGIN FORM VALIDATION              -->
 <!-- ========================================= -->
-
-<script>
-
-const loginForm = document.getElementById("loginFormData");
-
-if (loginForm) {
-
-    loginForm.addEventListener("submit", function (e) {
-
-        e.preventDefault();
-
-        const email =
-            document.getElementById("loginEmail").value.trim();
-
-        const password =
-            document.getElementById("loginPassword").value.trim();
-
-        if (email === "" || password === "") {
-
-            alert("Please fill in all required fields.");
-
-            return;
-
-        }
-
-        alert("Login Successful!");
-
-    });
-
-}
-
-</script>
 
 <!-- ========================================= -->
 <!--          END OF LOGIN PAGE                -->
