@@ -398,7 +398,6 @@ document.addEventListener("click",(event)=>{
         Initialize
 =========================================*/
 
-updateWishlistCounter();
 
 updateWishlistIcons();
 
