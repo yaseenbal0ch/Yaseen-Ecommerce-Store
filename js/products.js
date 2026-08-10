@@ -1311,8 +1311,6 @@ console.log("✅ Wishlist Ready");
         Wishlist Storage
 =========================================*/
 
-const WISHLIST_KEY = "yaseen-ecommerce-wishlist";
-
 let wishlist = JSON.parse(
 
 localStorage.getItem(WISHLIST_KEY)
